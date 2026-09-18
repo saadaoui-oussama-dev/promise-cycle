@@ -1,0 +1,48 @@
+{
+	"name": "promise-cycle",
+	"version": "0.1.0",
+	"description": "A lightweight utility for controlling when promises resolve and how their results are handled.",
+	"author": "Oussama Saadaoui",
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"deploy": "npm run build && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saadaoui-oussama-dev/promise-cycle.git"
+	},
+	"homepage": "https://github.com/saadaoui-oussama-dev/promise-cycle#readme",
+	"bugs": {
+		"url": "https://github.com/saadaoui-oussama-dev/promise-cycle/issues"
+	},
+	"keywords": [
+		"promise",
+		"promises",
+		"async",
+		"await",
+		"typescript",
+		"promise-control",
+		"promise-timing",
+		"async-control"
+	],
+	"devDependencies": {
+		"tsup": "^8.5.1",
+		"typescript": "^6.0.3"
+	},
+	"sideEffects": false
+}
