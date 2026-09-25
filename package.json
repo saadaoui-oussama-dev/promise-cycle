@@ -1,6 +1,6 @@
 {
 	"name": "promise-cycle",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "A lightweight utility for controlling when promises resolve and how their results are handled.",
 	"author": "Oussama Saadaoui",
 	"license": "MIT",
@@ -16,7 +16,8 @@
 		}
 	},
 	"files": [
-		"dist"
+		"dist",
+		"src"
 	],
 	"scripts": {
 		"build": "tsup",
